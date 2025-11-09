@@ -76,7 +76,8 @@
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DENABLE_TESTS=OFF",
                 "-DENABLE_MAC=OFF",
-                "-DENABLE_GTK=ON"
+                "-DENABLE_GTK=ON",
+                "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
             ],
             "cleanup": [
                 "/bin/transmission-create",
